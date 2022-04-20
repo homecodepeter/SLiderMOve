@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #DEF0F9;
+}
+.title h2{
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+}
+.underline{
+    width: 80px;
+    height: 5px;
+   position: absolute;
+   background-color: rgba(67, 67, 231, 0.932);
+   top: 4em;
+   right: 38em;
+}
+.big{
+    background-color: #fff;
+    width: 55%;
+    height: 40%;
+    margin:auto;
+    display: grid;
+    place-items: center;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.2);
+}
+.img-container img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+h4{
+    font-size: 1.6em;
+    font-weight: bold;
+    margin:0;
+}
+#job{
+    color: rgb(85, 85, 253);
+    font-size: 1.2em;
+    margin:0;
+    margin-top: .5em;
+}
+#info{
+    width: 80%;
+    margin:0;
+    margin-top: .5em;
+    line-height: 1.5em;
+    text-align: center;
+}
+.move{
+    margin-top: 1em;
+}
+.move i{
+    padding-left: .4em;
+    padding-right: .4em;
+    font-size: 1.5em;
+    cursor: pointer;
+    color:  rgb(85, 85, 253);
+}
+.prev-btn{
+    outline: none;
+    border:none;
+    background-color: transparent;
+}
+.next-btn{
+    outline: none;
+    border:none;
+    background-color: transparent;
+}
+.b{
+    margin-top: 1em;
+}
+.b button{
+    outline:none;
+    border:none;
+    padding: 5px 2em;
+    font-size: 1.4em;
+    font-family: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.2);
+    cursor: pointer;
+    color:  rgb(85, 85, 253);
+}
